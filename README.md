@@ -1,76 +1,75 @@
 # Granite-File-Analyzer
+
 Granite File Analyzer is an interactive web application based on Streamlit for analyzing and interacting with various types of files (txt, py, csv, json, md, pdf, docx). This application also supports a chat feature with file content using an AI model based on LM Studio (Granite).
 
-📂 Struktur Folder
+## 📂 Folder Structure
+
+```
 Granite-File-Analyzer/
 ├── Granite_app.py
 ├── requirements.txt
 ├── README.md
 └── png/
     ├── 1.png
-    └── 2.png
+    ├── 2.png
     └── 3.png
+```
 
+## ⚡ Main Features
 
-⚡ Fitur Utama
+- **File upload**: Supports various file formats such as txt, py, csv, json, md, pdf, and docx.
+- **Automatic summary**: Provides information on word count and lines in the file.
+- **Content analysis**: Delivers insights and conclusions based on file content.
+- **Interactive chat**: Interact directly with file content using AI model ibm/granite-3.2-8b from LM Studio.
+- **Analysis history**: Stores up to 20 recently analyzed files, with option to clear all history.
 
-Upload file: Mendukung berbagai format file seperti txt, py, csv, json, md, pdf, dan docx.
+## 🛠 Installation & Local Setup
 
-Ringkasan otomatis: Menyediakan informasi jumlah kata dan baris dalam file.
-
-Analisis konten: Memberikan insights dan kesimpulan berdasarkan isi file.
-
-Chat interaktif: Berinteraksi langsung dengan konten file menggunakan model AI ibm/granite-3.2-8b dari LM Studio.
-
-History analisis: Menyimpan hingga 20 file terakhir yang dianalisis, dengan opsi untuk menghapus semua riwayat.
-
-🛠 Instalasi & Jalankan Lokal
-
-Clone repositori:
-
+**Clone repository:**
+```bash
 git clone https://github.com/Trisaputraezha/Granite-File-Analyzer.git
 cd Granite-File-Analyzer
+```
 
-
-Install dependencies:
-
+**Install dependencies:**
+```bash
 pip install -r requirements.txt
+```
 
-
-Isi requirements.txt:
-
+**Requirements.txt contents:**
+```
 streamlit
 PyPDF2
 python-docx
 requests
+```
 
-
-Jalankan aplikasi:
-
+**Run application:**
+```bash
 streamlit run Granite_app.py
+```
 
-
-Akses aplikasi di browser pada:
-
+**Access application in browser at:**
+```
 http://localhost:8501
+```
 
-🔗 Konfigurasi LM Studio
+## 🔗 LM Studio Configuration
 
-URL LM Studio: Pastikan LM Studio berjalan dan dapat diakses pada URL berikut:
-
+**LM Studio URL**: Make sure LM Studio is running and accessible at the following URL:
+```
 http://127.0.0.1:1234/v1
+```
 
+**AI Model**: Use model `ibm/granite-3.2-8b` for analysis and interactive chat.
 
-Model AI: Gunakan model ibm/granite-3.2-8b untuk analisis dan chat interaktif.
+## 📷 Application Screenshots
 
-Output menjadi seperti ini :
-## 📷 Screenshot Aplikasi
+### 1️⃣ File Upload Interface
+![Upload File](PNG/1.png)
 
-### 1️⃣ Tampilan Upload File
-![Upload File](png/1.png)
+### 2️⃣ File Summary & Title
+![File Summary](PNG/2.png)
 
-### 2️⃣ Ringkasan & Judul File
-![File Summary](png/2.png)
-
-### 3️⃣ Chat Interaktif & Kesimpulan
-![Chat Interactive](png/3.png)
+### 3️⃣ Interactive Chat & Conclusion
+![Chat Interactive](PNG/3.png)
