@@ -55,6 +55,22 @@ http://localhost:8501
 ```
 
 ## 🔗 LM Studio Configuration
+#### Download & Install LMStudio
+1. Download LM Studio from: https://lmstudio.ai/
+2. Install according to your operating system.
+
+#### Download Model LLaVA
+1. Open LM Studio → Go to the Discover tab
+2. Search for "ibm/granite-3.2-8b"
+3. Download one of the models:
+   - https://lmstudio.ai/models/ibm/granite-3.2-8b(the one I use)
+
+#### Start LMStudio Server
+1. Go to the Chat tab → Load the LLaVA model
+2. Go to the Local Server tab
+3. Select model ibm/granite-3.2-8b
+4. Click Start Server
+5. Make sure the server is running at localhost:1234
 
 **LM Studio URL**: Make sure LM Studio is running and accessible at the following URL:
 ```
