@@ -89,3 +89,9 @@ http://127.0.0.1:1234/v1
 
 ### 3️⃣ Interactive Chat & Conclusion
 ![Chat Interactive](PNG/3.png)
+
+## Live Demo
+
+<a href="https://granite-file-analyzer-efsttmgq6wdmrqo3tubyqq.streamlit.app/" target="_blank">Open Granite File Analyzer</a>
+
+
