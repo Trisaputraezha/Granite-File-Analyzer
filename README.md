@@ -79,7 +79,7 @@ http://127.0.0.1:1234/v1
 
 **AI Model**: Use model `ibm/granite-3.2-8b` for analysis and interactive chat.
 
-## 📷 Application Screenshots
+## Application Test
 
 ### 1️⃣ File Upload Interface
 ![Upload File](PNG/1.png)
